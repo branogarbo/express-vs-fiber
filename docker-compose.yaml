@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  expressjs:
+    build: ./expressjs
+    ports:
+      - "3000:3000"
+  gofiber:
+    build: ./gofiber
+    ports:
+      - "3001:3001"
